@@ -1,0 +1,205 @@
+.map-background-container {
+  background-image: url(background/map-background.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 700px;
+  position: relative;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 40px;
+}
+
+.box-container {
+  position: absolute;
+  background-color: white;
+  border-radius: 40px;
+  height: 700px;
+  width: 700px;
+  width: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.intro-background-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: #022D58;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 66px;
+  margin-bottom: 0;
+  width: 500px;
+}
+
+@media screen and (max-width: 1350px) and (min-width:1250.1px) {
+  .title {
+    width: 460px;
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 1250px) and (min-width: 1180.1px) {
+  .title {
+    width: 420px;
+    font-size: 57px;
+  }
+}
+
+@media (max-width: 1180px) and (min-width:1050.1px) {
+  .title {
+    width: 385px;
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 1050px) and (min-width:950.1px) {
+  .title {
+    width: 350px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 790.1px) {
+  .title {
+    width: 320px;
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .title {
+    width: 280px;
+    font-size: 39px;
+  }
+}
+
+.subtitle-container {
+  display: flex;
+  justify-content: center;
+}
+
+.subtitle {
+  padding-top: 10px;
+  color: rgb(144, 144, 144);
+  font-family: Inter;
+  font-size: 19px;
+  line-height: 30px;
+  width: 500px;
+}
+
+@media screen and (max-width: 1350px) {
+  .subtitle {
+    width: 455px;
+  }
+}
+
+@media (max-width: 1250px) and (min-width: 1180.1px) {
+  .subtitle {
+    width: 420px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1180px) and (min-width:1050.1px) {
+  .subtitle {
+    width: 385px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1050px) and (min-width:950.1px) {
+  .subtitle {
+    width: 350px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 790.1px) {
+  .subtitle {
+    width: 320px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .subtitle {
+    width: 280px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+.email-type {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  margin-left: 15%;
+  margin-right: 20%;
+}
+
+.email-bar {
+  height: 45px;
+  font-family: Quicksand;
+  color: rgb(19, 49, 75);
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 10px;
+  border: 1.5px solid rgb(13, 56, 93);
+  border-radius: 10px;
+  width: 450px;
+}
+
+.email-bar::placeholder {
+  font-family: Quicksand;
+  font-weight: 500;
+  color: #11273d;
+  opacity: 0.6;
+  font-size: 15px;
+}
+
+.request-button {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  background-color: rgb(13, 56, 93);
+  border-style: none;
+  color: white;
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.request-button:hover {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background-color: white;
+  border-color: rgb(13, 56, 93);
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(13, 56, 93);
+  font-family: Quicksand;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 13px;
+}
+
+.request-button:active {
+  background-color: #89abcd;
+}

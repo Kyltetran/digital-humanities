@@ -1,0 +1,160 @@
+/*HTML 5 display rule*/
+address,
+article,
+aside,
+canvas,
+content,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+menu,
+section,
+summary {
+  display: block
+}
+
+.Inner {
+  color: black;
+  position: fixed;
+  width: 900px;
+  height: 900px;
+  left: 300px;
+  top: 100px;
+  border: 3px solid red;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+tr,
+th {
+  border: 1px solid black;
+  font-family: "League Spartan", Arial;
+}
+
+h1 {
+  font-family: "League Spartan", Arial;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url('U:/Web Development/fonts/leaguespartan-bold.eot');
+  src: url('U:/Web Development/fonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+    url('U:/Web Development/fonts/leaguespartan-bold.woff2') format('woff2'),
+    url('U:/Web Development/fonts/leaguespartan-bold.woff') format('woff'),
+    url('U:/Web Development/fonts/leaguespartan-bold.ttf') format('truetype'),
+    url('U:/Web Development/fonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+
+
+nav {
+  font-family: League Spartan, Arial;
+  float: left;
+  color: black;
+  width: 300px;
+  height: 800px;
+  position: fixed;
+  background-color: #17499b;
+  top: 100px;
+  left: 0px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+
+  box-shadow: 0px 0px 10px #000000 inset;
+  /*-webkit-box-shadow:0px 5px 10px #000000 inset; /*safari*/
+
+}
+
+nav li {
+  font-family: League Spartan, Arial;
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-family: League Spartan, Arial;
+  float: left;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-size: 10px;
+  /* css3 transition */
+  -webkit-transition: all .5s;
+  -o-transition-property: all;
+  -o-transition-duration: .5s;
+  -moz-transition-property: all;
+  -moz-transition-duration: .5s;
+  transition-property: all;
+  transition-duration: .5s;
+
+  border: .5px solid black;
+  width: 200px;
+  display: inline;
+  padding: 7.5px;
+  box-shadow: 0px 0px 5px #000000;
+  -webkit-box-shadow: 0px 0px 5px #000000;
+  /*safari*/
+
+}
+
+nav li a:link {
+  font-family: League Spartan, Arial;
+  text-decoration: none;
+  color: #333;
+
+}
+
+nav li a:visited {
+  font-family: League Spartan, Arial;
+  text-decoration: none;
+  color: #333;
+}
+
+nav li a:hover {
+  font-family: League Spartan, Arial;
+  font-weight: bold;
+  color: #0800ff;
+  background-color: #5b9819;
+  box-shadow: 0px 0px 5px #000000 inset;
+  -webkit-box-shadow: 0px 0px 5px #000000 inset;
+  /* safari */
+}
+
+nav li a:active {
+  font-family: League Spartan, Arial;
+  font-weight: bold;
+  color: #333;
+  background-color: #000000;
+}
+
+
+header {
+  font-family: League Spartan, Arial;
+  line-height: 25px;
+  text-align: center;
+
+  border: 0px solid black;
+  color: black;
+  width: 100%;
+  height: var(--TitleHeight);
+  background-color: var(--maincolor);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 0px 10px #000000 inset;
+}

@@ -1,0 +1,125 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(245, 245, 245);
+  z-index: 100;
+}
+
+.left-section {
+  font-size: 28px;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 7px;
+  margin-left: 45px;
+  margin-right: 25px;
+}
+
+.web-name {
+  text-decoration: none;
+  color: #022D58;
+  transition: opacity 0.15s;
+}
+
+.web-name:hover {
+  opacity: 0.8;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 40px;
+  min-width: 330px;
+  width: 480px;
+}
+
+.nav-item {
+  color: rgba(2, 45, 88, 0.60);
+  font-size: 17px;
+  font-family: Roboto, Arial;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.nav-item:hover {
+  color: rgb(25, 59, 95);
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  flex: 1;
+  min-width: 100px;
+  max-width: 300px;
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.search-icon {
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+
+.search-bar {
+  flex: 1;
+  height: 25px;
+  font-family: Roboto, Arial;
+  color: rgb(19, 49, 75);
+  font-size: 15px;
+  border: 1px solid rgb(33, 97, 153);
+  opacity: 0.8;
+  border-radius: 15px;
+  padding-left: 15px;
+  width: 80px;
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  color: #214365;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+  width: 100px;
+  flex-shrink: 0;
+}
+
+
+.language-change {
+  color: #022D58;
+  font-size: 17px;
+  font-family: Roboto, Arial;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 22px;
+}
+
+.profile-picture-container {
+  padding-top: 3px;
+}
+
+.profile-picture {
+  height: 18px;
+  width: 22px;
+}
